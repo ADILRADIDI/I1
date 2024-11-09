@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.1/dist/tailwind.min.css" rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+</head>
+
+<body class="bg-white">
+    <!-- Navigation -->
+    <nav class="px-8 py-4 flex justify-between items-center max-w-7xl mx-auto">
+        <a href="#" class="flex items-center space-x-2">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 10l-2 1m0 0l-2-1m2 1v2.5M20 7l-2 1m2-1l-2-1m2 1v2.5M14 4l-2-1-2 1M4 7l2-1M4 7l2 1M4 7v2.5M12 21l-2-1m2 1l2-1m-2 1v-2.5M6 18l-2-1v-2.5M18 18l2-1v-2.5"></path>
+            </svg>
+            <span class="font-bold text-xl">Rdev</span>
+        </a>
+        
+        <div class="hidden md:flex items-center space-x-8">
+            <a href="#" class="nav-link">Home</a>
+            <a href="#About" class="nav-link">Creator</a>
+            <a href="#Project" class="nav-link">Project</a>
+            <li class="nav-item relative">
+                <a href="#" class="hover:text-gray-600">Category</a>
+                <ul class="dropdown-menu absolute left-0 mt-2 bg-white shadow-lg rounded-lg py-2 w-48">
+                    <li><a href="#" class="block px-4 py-2 hover:bg-gray-200">Admin Panel</a></li>
+                    <li><a href="#" class="block px-4 py-2 hover:bg-gray-200">Landing Page</a></li>
+                    <li><a href="#" class="block px-4 py-2 hover:bg-gray-200">Wordpress & Woocommerce</a></li>
+                    <li><a href="#" class="block px-4 py-2 hover:bg-gray-200">Technology</a></li>
+                </ul>
+            </li>
+            <a href="#Contact" class="nav-link">Contact</a>
+        </div>
+
+    </nav>
+
+    <!-- Hero Section -->
+    <main class="relative pt-12 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-8">
+            <!-- Top Banner -->
+            <div class="text-center mb-12">
+                <span class=" sp bg-orange-300 text-orange-700 px-6 py-2 rounded-full text-sm font-medium inline-block">
+                    Welcome to My Creative Universe
+                </span>
+            </div>
+
+            <!-- Main Content -->
+            <div class="text-center max-w-4xl mx-auto">
+                <h1 class="text-[4rem] leading-tight font-bold mb-8 tracking-tight">
+                    Discover Unique <br/> Digital Experiences
+                </h1>
+                <p class="text-xl text-gray-600 mb-12 max-w-2xl mx-auto leading-relaxed">
+                    Unlock the power of creativity with captivating designs and seamless functionality crafted to elevate your brand. Step into a world of innovation and inspiration.
+                </p>
+            </div>
+        </div>
+
+        <!-- Carousel Section -->
+        <div class="carousel-wrapper mt-16">
+            <div class="carousel-container">
+                <div class="carousel-track" id="carousel">
+                    <div class="carousel-card">
+                        <img src="https://images.unsplash.com/photo-1554774853-aae0a22c8aa4?w=800&q=80" alt="Outdoor">
+                    </div>
+                    <div class="carousel-card">
+                        <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?w=800&q=80" alt="Creative">
+                    </div>
+                    <div class="carousel-card">
+                        <img src="https://s3.amazonaws.com/creativetim_bucket/products/50/original/material-dashboard.jpg?1729607568" alt="Business">
+                    </div>
+                    <div class="carousel-card">
+                        <img src="https://cms-assets.tutsplus.com/cdn-cgi/image/width=360/uploads/users/2660/posts/35190/image/leland-isometric-business-html-landing-page-26240112.jpg" alt="Wellness">
+                    </div>
+                    <div class="carousel-card">
+                        <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=800&q=80" alt="Technology">
+                    </div>
+                    <div class="carousel-card">
+                        <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&q=80" alt="Lifestyle">
+                    </div>
+                    <div class="carousel-card">
+                        <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&q=80" alt="Lifestyle">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CTA Button -->
+        <div class="text-center mt-12 mb-20">
+            <button class="premium-button text-white px-8 py-3 rounded-full text-lg font-medium shadow-lg">
+                Get Started
+            </button>
+        </div>
+    </main>
+
+    <!-- about  -->
+    <!-- About Section -->
+<hr id="About" class="shadow-lg mb-20">
+<div  class="max-w-7xl mx-auto px-8 py-16 bg-gray-100 rounded-lg flex items-center space-x-8">
+    <div class="w-48 h-48 overflow-hidden rounded-full">
+        <img src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=400&q=80" alt="Avatar" class="object-cover w-full h-full">
+    </div>
+    <div class="flex-1">
+        <h2 class="text-3xl font-bold mb-4">Meet Our Creator</h2>
+        <p class="text-lg text-gray-700 mb-4">
+            Hi, I'm a passionate creator and designer who believes in transforming ideas into captivating digital experiences. With a keen eye for detail and a love for innovation, I aim to build immersive platforms that engage and inspire.
+        </p>
+        <a href="#" class="text-blue-500 font-semibold hover:underline">Learn more about me</a>
+    </div>
+</div>
+
+    <!-- Projects Section -->
+    <hr id="Project" class="shadow-lg my-20">
+    <div class="max-w-7xl mx-auto px-8 py-16 bg-white rounded-lg">
+        <h2 class="text-3xl font-bold text-center mb-12">Projects</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Project Card 1 -->
+            <div class="bg-gray-100 rounded-lg shadow-md overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?w=400&q=80" alt="Project 1" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-2xl font-semibold mb-2">Project Title 1</h3>
+                    <p class="text-gray-600 mb-4">A brief description of the project showcasing unique features and purpose.</p>
+                    <a href="#" class="text-blue-500 font-semibold hover:underline">Demo Live</a>
+                </div>
+            </div>
+            
+            <!-- Project Card 2 -->
+            <div class="bg-gray-100 rounded-lg shadow-md overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=400&q=80" alt="Project 2" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-2xl font-semibold mb-2">Project Title 2</h3>
+                    <p class="text-gray-600 mb-4">A brief description of the project showcasing unique features and purpose.</p>
+                    <a href="#" class="text-blue-500 font-semibold hover:underline">Demo Live</a>
+                </div>
+            </div>
+
+            <!-- Project Card 3 -->
+            <div class="bg-gray-100 rounded-lg shadow-md overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=400&q=80" alt="Project 3" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-2xl font-semibold mb-2">Project Title 3</h3>
+                    <p class="text-gray-600 mb-4">A brief description of the project showcasing unique features and purpose.</p>
+                    <a href="#" class="text-blue-500 font-semibold hover:underline">Demo Live</a>
+                </div>
+            </div>
+            
+            <!-- Project Card 3 -->
+            <div class="bg-gray-100 rounded-lg shadow-md overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=400&q=80" alt="Project 3" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-2xl font-semibold mb-2">Project Title 3</h3>
+                    <p class="text-gray-600 mb-4">A brief description of the project showcasing unique features and purpose.</p>
+                    <a href="#" class="text-blue-500 font-semibold hover:underline">Demo Live</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- https://dashboard.emailjs.com/admin -->
+    <hr id="Contact" class="shadow-lg mb-20">
+    <section class="bg-white dark:bg-gray-900">
+        <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Contact Us</h2>
+            <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.</p>
+            <!-- Contact Form -->
+            <form id="contact-form" action="#" method="POST">
+                <div>
+                    <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your email</label>
+                    <input type="email" id="email" name="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="name@flowbite.com" required>
+                </div>
+                <div>
+                    <label for="subject" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Subject</label>
+                    <input type="text" id="subject" name="subject" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Let us know how we can help you" required>
+                </div>
+                <div>
+                    <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your message</label>
+                    <textarea id="message" name="message" rows="4" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Write your message here..." required></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="text-white bg-blue-500 hover:bg-blue-700 px-6 py-2 rounded-full text-lg font-medium shadow-lg">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    
+
+    <footer class="bg-gray-50 dark:bg-gray-900">
+        <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+            <div class="md:flex md:justify-between">
+                <div class="mb-6 md:mb-0">
+                    <a href="#" class="flex items-center">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 10l-2 1m0 0l-2-1m2 1v2.5M20 7l-2 1m2-1l-2-1m2 1v2.5M14 4l-2-1-2 1M4 7l2-1M4 7l2 1M4 7v2.5M12 21l-2-1m2 1l2-1m-2 1v-2.5M6 18l-2-1v-2.5M18 18l2-1v-2.5"></path>
+                        </svg>
+                        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white ml-2"> Rdev</span>
+                    </a>
+                </div>
+                <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                    <!-- <div>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
+                        <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                            <li class="mb-4"><a href="#" class="hover:underline">Blog</a></li>
+                            <li><a href="#" class="hover:underline">Portfolio</a></li>
+                        </ul>
+                    </div> -->
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
+                        <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                            <li class="mb-4"><a href="#" class="hover:underline">LinkedIn</a></li>
+                            <li><a href="#" class="hover:underline">Twitter</a></li>
+                            <li class="mt-4"><a href="#" class="hover:underline">Instagram</a></li>
+                            <li class="mt-4"><a href="#" class="hover:underline">Discord</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
+                        <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                            <li class="mb-4"><a href="#" class="hover:underline">Privacy Policy</a></li>
+                            <li><a href="#" class="hover:underline">Terms & Conditions</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" /> -->
+        </div>
+    </footer>
+    
+
+
+    <script>
+        // Carousel Code
+        const carousel = document.getElementById('carousel');
+        let position = 0;
+        let speed = 0.5; // Use let here so it can be modified in event listeners
+    
+        function moveCarousel() {
+            position -= speed;
+            
+            // Reset position when a card width is reached
+            if (position < -320) {
+                position = 0;
+                // Move first card to end
+                carousel.appendChild(carousel.firstElementChild);
+            }
+            
+            // Apply the transform with a slight curve effect
+            carousel.style.transform = `rotate(-5deg) translateX(${position}px)`;
+            requestAnimationFrame(moveCarousel);
+        }
+    
+        // Initialize carousel
+        moveCarousel();
+    
+        // Add hover effect to pause animation
+        carousel.addEventListener('mouseenter', () => speed = 0); // Pause animation
+        carousel.addEventListener('mouseleave', () => speed = 0.5); // Resume animation
+    
+        // EmailJS Integration
+        emailjs.init('YOUR_USER_ID');  // Replace with your actual user ID
+    
+        // Contact form submission event listener
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+    
+            emailjs.sendForm('service_839nuyx', 'YOUR_TEMPLATE_ID', this)  // Replace with your template ID
+                .then(function(response) {
+                    console.log('SUCCESS!', response);
+                }, function(error) {
+                    console.log('FAILED...', error);
+                });
+        });
+    </script>
+    
+</body>
+</html>
